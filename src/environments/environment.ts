@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyDZRzJWtavGatAOXJy3eXaA88dMXO9yzcs",
+    authDomain: "kanbanfire-b7408.firebaseapp.com",
+    projectId: "kanbanfire-b7408",
+    storageBucket: "kanbanfire-b7408.appspot.com",
+    messagingSenderId: "276859407573",
+    appId: "1:276859407573:web:a0e023df9a6b23ec2f665c",
+  },
 };
 
 /*
@@ -14,3 +22,15 @@ export const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/plugins/zone-error';  // Included with Angular CLI.
+
+// const firebaseConfig = {
+//   apiKey: "AIzaSyDZRzJWtavGatAOXJy3eXaA88dMXO9yzcs",
+//   authDomain: "kanbanfire-b7408.firebaseapp.com",
+//   projectId: "kanbanfire-b7408",
+//   storageBucket: "kanbanfire-b7408.appspot.com",
+//   messagingSenderId: "276859407573",
+//   appId: "1:276859407573:web:a0e023df9a6b23ec2f665c"
+// };
+
+
+
